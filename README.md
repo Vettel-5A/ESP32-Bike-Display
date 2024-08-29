@@ -18,5 +18,5 @@ After learning from my earlier mistake, I decided to split the mount into two ha
 Power is delivered to the ESP32 through a USB to USB-C type cable connected to a battery pack which is mounted to the top tube of the bike via another set of velcro locks. As the leads on the ESP32-Wroom microcontroller are already pre-soldered onto the board, I decided to not make my life complicated, and instead simply use Qwiic connectors to daisy chain the microcontroller to the alphanumeric display to the breakout sensor. Since the output voltage of the ESP32 was 5 volts, the input voltage of the breakout sensor and the alphanumeric display was 3 volts, and because the resistance from the alphanumeric display was minimal, all modules received the necessary voltage needed to operate.
 
 ## Software
-Since I was using the Qwiic connectors to connect the breakout sensor to the aphanumeric display to the ESP32 in a daisy chain fashion, it was necessary to use I2C serial communication in order to have the ESP32 communicate with the aphanumeric display and breakout sensor. 
+Since I was using the Qwiic connectors to connect the breakout sensor to the alphanumeric display to the ESP32 in a daisy chain fashion, it was necessary to use I2C serial communication in order to have the ESP32 communicate with the aphanumeric display and breakout sensor. 
 
