@@ -15,7 +15,7 @@ After learning from my earlier mistake, I decided to split the mount into two ha
 
 <p align="left">
   <img src="3DPrints/Images/IMG_0993.JPG" width=49% align="center" />
-  <img src="3dprints/Images/IMG_1002.JPG" width=49% align="center" />
+  <img src="3DPrints/Images/IMG_1002.JPG" width=49% align="center" />
 </p>
 
 ## Electrical
