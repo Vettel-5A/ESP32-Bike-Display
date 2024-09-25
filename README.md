@@ -1,4 +1,4 @@
-# ESP32-Bike-Speedometer
+# ESP32-Bike-Display
 One of my favorite things to do in my free time is to mountain bike with friends. There are a ton of good trails near my place, so it's very convenient to simply decide to go on a bike ride with my friends any weekend. During some of the trails, I sometimes wonder how fast I'm actually going on my bike, or how steep a certain hill is. Thus, I decided to create a bike display to display the slope gradient or my speed while I'm riding my bike.
 
 ## Hardware
