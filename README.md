@@ -1,11 +1,9 @@
 # ESP32-Bike-Speedometer
-One of my favorite things to do in my free time is to mountain bike with friends. There are a ton of good trails near my place, so it's very convenient to simply decide to go on a bike ride with my friends any weekend. Sometimes, I wonder how fast I'm actually going on my bike as I speed down trails, or when I work my way up hills. 
-
-Using an ESP32 microcontroller, along with a 6-axis breakout sensor and seven-segment alphanumeric display, I decided to create a digital speedometer in order to know my speed while on a bike ride. 
+One of my favorite things to do in my free time is to mountain bike with friends. There are a ton of good trails near my place, so it's very convenient to simply decide to go on a bike ride with my friends any weekend. During some of the trails, I sometimes wonder how fast I'm actually going on my bike, or how steep a certain hill is. Thus, I decided to create a bike display to display the slope gradient or my speed while I'm riding my bike.
 
 ## Hardware
 
-Now, one of the major problems I thought about was figuring out how to mount the ESP32, breakout sensor, and the seven-segment alphanumeric display onto the bike. I wanted to keep everything close together, just to ensure that wires wouldn't get entangled and put my safety in danger while riding my bike. So, I decided I was going to keep all three modules into one main mount which acts as a handlebike mount. 
+First, one of the major problems I thought about was figuring out how to mount the ESP32, breakout sensor, and the seven-segment alphanumeric display onto the bike. I wanted to keep everything close together, just to ensure that wires wouldn't get entangled and put my safety in danger while riding my bike. So, I decided I was going to keep all three modules into one main mount which acts as a handlebike mount. 
 
 I 3D printed my first version of the mount a double-screw handlebar mount, which included a mount for the seven-segment display at a 20° angle, a mount for the breakout sensor that was parallel to the ground, and the microcontroller under the handlebar and facing towards the back of the bike in order to ensure it's partly shielded from incoming dust during a bike ride. All electrical modules are mounted to the 3D printed mount using multiple 3M locks, as I had many of them left over from my time in the FIRST LEGO League.
 
