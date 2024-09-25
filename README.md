@@ -36,3 +36,6 @@ Power is delivered to the ESP32 through a USB to USB-C type cable connected to a
 ## Software
 Since I was using the Qwiic connectors to connect the breakout sensor to the alphanumeric display to the ESP32 in a daisy chain fashion, it was necessary to use I2C serial communication in order to have the ESP32 communicate with the alphanumeric display and breakout sensor. The microcontroller reads the data from the breakout sensor, and then writes that data to the alphanumeric display in order to display the data on the screen. Then, the data is cleared from the screen as the new data from the breakout sensor is fetched. This loops constantly while the ESP32 is fed power from the battery pack. 
 
+The current code displays the bike's roll angle, as I wanted to see how far I leaned into certain turns while biking. This could be rewritten to get the yaw of the bike to use as a compass, the pitch of the bike to find the gradient of a hill while biking, or could also be rewritten to find the acceleration of the bike in each direction, or its total speed.
+
+
