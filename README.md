@@ -16,7 +16,7 @@ I 3D printed my first version of the mount a double-screw handlebar mount, which
 
 The first time I attempted to mount this on my bike, I bended the mount a little too much while attempting to slot it into the handlebars, and it eventually split in half. So, it was back to the drawing board for me. 
 
-After learning from my earlier mistake, I also decided to split the mount into two halves. Instead of stressing the mount while attempting to slot it onto the handlebars, I could simply put one half of the mount on the top of the handlebar, and the other half below, and simply use four screws towards each corner of the mount to ensure the mount "clamps" to the handlebars and stays in place. When testing, this proved to be effective, ensuring the mount was fastened in place without having to withstand as much stress and bending while mounting as the first version did.
+After learning from my earlier mistake, I decided to split the mount into two halves, so instead of stressing the mount while attempting to slot it onto the handlebars, I could simply put one half of the mount on the top of the handlebar, and the other half below, and simply use four screws towards each corner of the mount to ensure the mount "clamps" to the handlebars and stays in place. When testing, this proved to be effective, ensuring the mount was fastened in place without having to withstand as much stress and bending while mounting as the first version did.
 
 <p align="left">
   <img src="3DPrints/Images/IMG_0993.JPG" width=49% align="center" />
