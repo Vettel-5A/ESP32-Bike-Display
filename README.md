@@ -1,5 +1,5 @@
 # ESP32-Bike-Speedometer
-One of my favorite things to do in my free time is to mountain bike with friends. There are a ton of good trails near my place, so it's very convenient to simply decide to go on a bike ride with my friends any weekend. Sometimes, I wonder how fast I'm actually going on my bike as I speed down trails, or work my way up hills. 
+One of my favorite things to do in my free time is to mountain bike with friends. There are a ton of good trails near my place, so it's very convenient to simply decide to go on a bike ride with my friends any weekend. Sometimes, I wonder how fast I'm actually going on my bike as I speed down trails, or when I work my way up hills. 
 
 Using an ESP32 microcontroller, along with a 6-axis breakout sensor and seven-segment alphanumeric display, I decided to create a digital speedometer in order to know my speed while on a bike ride. 
 
@@ -9,9 +9,14 @@ Now, one of the major problems I thought about was figuring out how to mount the
 
 I 3D printed my first version of the mount a double-screw handlebar mount, which included a mount for the seven-segment display at a 20° angle, a mount for the breakout sensor that was parallel to the ground, and the microcontroller under the handlebar and facing towards the back of the bike in order to ensure it's partly shielded from incoming dust during a bike ride. All electrical modules are mounted to the 3D printed mount using multiple 3M locks, as I had many of them left over from my time in the FIRST LEGO League.
 
-The first time I attempted to mount this on my bike, I bended the mount a little too much while attempting to slot it into the handlebars, and it eventually split in half. So, it was back to the drawing board for me. 
+<p align="left">
+  <img src="3DPrints/Images/CADSketch.png" width=49% align="center" />
+  <img src="3DPrints/Images/CAD3D.png" width=49% align="center" />
+</p>
 
-After learning from my earlier mistake, I decided to split the mount into two halves. Therefore, instead of stressing the mount while attempting to slot it onto the handlebars, I could simply put one half of the mount on the top of the handlebar, and the other half below, and simply use four screws towards each corner of the mount to ensure the mount "clamps" to the handlebars and stays in place. When testing, this proved to be effective, ensuring the mount was fastened in place without having to withstand as much stress and bending while mounting as the first version did.
+The first time I attempted to mount this on my bike, I bended the mount a little too much while attempting to slot it into the handlebars, and it eventually split in half (Picture of the broken mount below) So, it was back to the drawing board for me. 
+
+After learning from my earlier mistake, I decided to split the mount into two halves, so instead of stressing the mount while attempting to slot it onto the handlebars, I could simply put one half of the mount on the top of the handlebar, and the other half below, and simply use four screws towards each corner of the mount to ensure the mount "clamps" to the handlebars and stays in place. When testing, this proved to be effective, ensuring the mount was fastened in place without having to withstand as much stress and bending while mounting as the first version did.
 
 <p align="left">
   <img src="3DPrints/Images/IMG_0993.JPG" width=49% align="center" />
